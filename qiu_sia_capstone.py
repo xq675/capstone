@@ -13,7 +13,7 @@ from sklearn.metrics import silhouette_score
 from sklearn.preprocessing import OneHotEncoder
 
 # preprocessing
-SEED = 12801197
+SEED = 42
 random.seed(SEED)
 
 df = pd.read_csv('musicData.csv')
